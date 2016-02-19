@@ -26,7 +26,7 @@ public class My2DController
 	{
 		for(int row = 0; row < myPokemons.length; row++)
 		{
-			for(int col = 0; col < myPokemons[0].length; col++);
+			for(int col = 0; col < myPokemons[0].length; col++)
 			{
 				myPokemons[row][col] = new Pokemon();
 				if(col % 2 == 0)
