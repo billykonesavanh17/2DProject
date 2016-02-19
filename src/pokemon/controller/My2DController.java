@@ -13,6 +13,7 @@ public class My2DController
 	public My2DController()
 	{
 		myPokemons = new Pokemon[5][5];
+		setupArray();
 		baseFrame = new PokemonFrame(this);
 	}
 	
